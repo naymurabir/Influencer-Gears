@@ -114,6 +114,67 @@ body {
     width: 60px;
 }
 
+/* Product Section Styles */
+.product-heading {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-heading-name {
+    color: #3A3A3A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-content {
+    width: 200px;
+    height: 320px;
+    margin-bottom: 20px;
+    /* background-color: bisque; */
+    /* text-align: center; */
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.product-title {
+    color: var(--text-gray-900, #18191F);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.product-description {
+    color: var(--gray-50, #787885);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.see-more {
+    color: #E02C6D;
+    margin-left: 70%;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 220px;
+}
+
 
 
 
@@ -181,9 +242,27 @@ body {
 
     .sponsors-list .sponsors-item {
         width: 50px;
-
     }
 
+    /* Product */
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px 30px;
+        align-items: center;
+    }
+
+    .product-content {
+        width: 300px;
+        height: 410px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-image {
+        width: 300px;
+    }
 }
 
 
@@ -237,5 +316,25 @@ body {
         border: 0;
         justify-content: space-around;
         gap: 30px;
+    }
+
+    /* Product */
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 35px;
+        align-items: center;
+    }
+
+    .product-content {
+        width: 300px;
+        height: 410px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-image {
+        width: 300px;
     }
 }
